@@ -14,17 +14,17 @@ To start with, clone this project using:
 Navigate to the main directory of the newly cloned repository and open the **configurations.yaml** file. There you can set your preferences for text notifications and initial setup. The configuration file will look like this:
 
     not:
-    notified: "True"
-    sid: "twilio sid"
-    token: "twilio token"
-    twilio_number: "twilio number"
-    usr_number: "your number"
-    imgur_client_id: "your imgur client id"
+        notified: "True"
+        sid: "twilio sid"
+        token: "twilio token"
+        twilio_number: "twilio number"
+        usr_number: "your number"
+        imgur_client_id: "your imgur client id"
 
     main:
-    input_video: "videos/sample1.mov"
-    camera_src: "Choose camera source: with webcam enter 0"
-    location_name: "Enter location name"
+        input_video: "videos/sample1.mov"
+        camera_src: "Choose camera source: with webcam enter 0"
+        location_name: "Enter location name"
 
 
 
