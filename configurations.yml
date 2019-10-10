@@ -1,0 +1,12 @@
+not:
+  notified: "False"
+  sid: ""
+  token: ""
+  twilio_number: ""
+  usr_number: ""
+  imgur_client_id: ""
+
+main:
+  input_video: "videos/sample1.mov"
+  camera_src: "None"
+  location_name: "bedroom"
