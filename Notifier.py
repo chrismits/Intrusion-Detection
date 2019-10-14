@@ -36,19 +36,16 @@ class Notifier:
 		imgr = pyimgur.Imgur(self.imgur_id)
 		uploaded = imgr.upload_image(img_file, title="Security")
 
-
 		# Create new Twilio client
 		client = Client(self.sid, self.token)
 		message = "Motion Detected at:" + loc
-
-
-		print("MESSAGE SENT")
-		# send mmss
-		# msg = client.messages.create(
-		# 				body=message,
-		# 				from_=self.twilio_num,
-		# 				media_url=uploaded.link,
-		# 				to=self.user_num
-		# 			)
-		# Message sent, delete local image file
+		
+		# Send message
+		msg = client.messages.create(
+						body=message,
+						from_=self.twilio_num,
+						media_url=uploaded.link,
+						to=self.user_num
+					)
+		Message sent, delete local image file
 		os.remove(img_file)
