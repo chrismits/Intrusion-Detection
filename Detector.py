@@ -71,11 +71,6 @@ class Detector:
                     self.last = time.monotonic()
                     self.upload(contour_frame)
 
-            # cv2.imshow("Threshold Frame", thresh)
-            # #cv2.imshow("Gaussian Blur Frame", proc_frame)
-            # #cv2.imshow("Actual Frame", frame)
-            # cv2.imshow("Eroded", eroded)
-            # cv2.imshow("Dilated", dilated)
             cv2.imshow("Video Feed with Contours", contour_frame)
             cv2.waitKey(25)
 
