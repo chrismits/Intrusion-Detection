@@ -1,10 +1,18 @@
 # Intrusion-Detection
 
-Intrusion Detection system for security cameras. If a camera feed detects motion, the user will be notified via text message, along with an imnage of the perpetrator.
+This project consists of an Intrusion Detection system for security cameras written in Python. If a camera feed detects motion, the user will be notified via text message, along with an imnage of the perpetrator.
 
-Demo can be seen here: ENTER YOUTUBE LINK
+Demo can be seen here: https://youtu.be/IJ9UsFXZBgc 
 
 ## Setup:
+
+The main libraries this project uses are: OpenCV, Twilio and pyimgur.
+
+More info can be found here:
+- OpenCV: https://opencv.org/
+- Twilio: https://www.twilio.com/
+- Pyimgur: https://github.com/Damgaard/PyImgur
+
 
 * Note: Because this project is still in a preliminary phase, it assumes that the user has a twilio user account with a demo project set up and a pyimgur user account.
 
