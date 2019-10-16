@@ -1,10 +1,12 @@
 # Intrusion-Detection
 
-Intrusion Detection system for security cameras. If a camera feed detects motion, the user will be notified via text message. Demo can be seen here: ENTER YOUTUBE LINK
+Intrusion Detection system for security cameras. If a camera feed detects motion, the user will be notified via text message, along with an imnage of the perpetrator.
+
+Demo can be seen here: ENTER YOUTUBE LINK
 
 ## Setup:
 
-* Note: Because this project is still in a preliminary phase, it assumes that the user has a twilio user account with a demo project set up and a pyimgur user account. 
+* Note: Because this project is still in a preliminary phase, it assumes that the user has a twilio user account with a demo project set up and a pyimgur user account.
 
 To start with, clone this project using:
 
