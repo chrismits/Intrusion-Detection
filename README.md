@@ -1,6 +1,6 @@
 # Intrusion-Detection
 
-This project consists of an Intrusion Detection system for security cameras written in Python. If a camera feed detects motion, the user will be notified via text message, along with an imnage of the perpetrator.
+This project consists of an Intrusion Detection system for security cameras written in Python. If a camera feed detects motion, the user will be notified via text message, along with an image of the perpetrator.
 
 Demo can be seen here: https://youtu.be/IJ9UsFXZBgc 
 
